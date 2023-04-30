@@ -1,6 +1,6 @@
 html
 {
-    width: 1440px;
+    width: auto;
 }
 
 body
@@ -12,7 +12,7 @@ footer
 {
 background-color: #FEBD2F;
 width: auto;
-height: 81px;
+height: 80px;
 display: flex;
 justify-content: center; 
 }
@@ -43,6 +43,7 @@ a
     width: 600px;
     grid-area: banner;
     font-size: 64px;
+    padding-left: 20px;
 }
 
 .description
@@ -51,6 +52,7 @@ a
     width: 600px;
     grid-area: description;
     font-size: 24px;
+    padding-left: 20px;
 }
 
 .cooking
