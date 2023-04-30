@@ -157,3 +157,67 @@ button
    width: 129.62px;
    padding-top: 20px;
 }
+
+@media screen and (max-width: 768px)
+{
+.grid-container
+    {
+        display: grid;
+        grid-template-areas:
+         "banner"
+         "description"
+         "cooking";
+         height: auto;
+         padding-left: 80px;
+    }
+    .flex-item
+    {
+        height: 271px;
+        width: 332px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 390px)
+{
+    .flex-item
+    {
+       height: 247px;
+       width: 342px;
+    }
+
+    .yellow-card
+    {
+        height: 132px;
+        width: 342px;
+    }
+
+    .cooking
+    {
+        height: 220px;
+        width: 342px;
+    }
+
+    .banner
+    {
+        width: 342px;
+        font-size: 36px;
+    }
+
+    .description
+    {
+        width: 342px;
+        font-size: 18px;
+    }
+
+    .yellow-card
+    {
+        font-size: 24px;
+    }
+
+    .logo
+    {
+        width: 129.62px;
+        height: 32px;
+    }
+}
