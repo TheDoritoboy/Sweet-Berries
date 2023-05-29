@@ -11,6 +11,7 @@ background-color: #F5F3EF;
 h1 h2 h3
 {
     font-family: 'Roboto Serif', serif;
+    text-align: left;
 }
 
 footer
@@ -26,13 +27,13 @@ justify-content: center;
 {
     width: 64.98px;
     height: 58.69px;
-    margin: 0 0 150px 300px
 }
 
 p
 {
     color: #646464;
     font-family: 'Roboto', sans-serif;
+    text-align: left;
 }
 
 a
@@ -120,6 +121,12 @@ margin: 20px 0 20px 0;
     flex-direction: column;
 }
 
+.mini-item
+{
+    margin: auto;
+    
+}
+
 .start
 {
     text-decoration: none;
@@ -165,7 +172,7 @@ button
    padding-top: 20px;
 }
 
-@media screen and (max-width: 768px)
+@media screen and (min-width: 768px)
 {
 .grid-container
     {
@@ -183,10 +190,32 @@ button
         width: 332px;
         padding: 10px;
     }
+
+    button
+{
+    height: 40px;
+    width: 130px;
 }
 
-@media screen and (max-width: 390px)
+}
+
+@media screen and (min-width: 390px)
 {
+    button
+    {
+        height: 40px;
+        width: 130px;
+    }
+    
+    .grid-container
+    {
+        display: grid;
+        grid-template-areas:
+         "banner"
+         "description"
+         "cooking";
+    }
+
     .flex-item
     {
        height: 247px;
