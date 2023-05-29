@@ -174,7 +174,7 @@ button
 
 @media screen and (min-width: 768px)
 {
-.grid-container
+    .grid-container
     {
         display: grid;
         grid-template-areas:
@@ -182,7 +182,9 @@ button
          "description"
          "cooking";
          height: auto;
-         padding-left: 80px;
+        padding-left: 80px;
+        margin: auto;
+         
     }
     .flex-item
     {
@@ -192,11 +194,30 @@ button
     }
 
     button
-{
-    height: 40px;
-    width: 130px;
-}
+    {
+        height: 40px;
+        width: 130px;
+    }
 
+    .banner
+    {
+        height: 112px;
+        width: 608px;
+        font-size: 48px;
+    }
+
+    .cooking
+    {
+        width: 688px;
+        height: 360px;
+    }
+
+    .description
+    {
+        height: 96px;
+        width: 608px;
+        font-size: 20px;
+    }
 }
 
 @media screen and (min-width: 390px)
